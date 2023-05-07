@@ -1,0 +1,75 @@
+html {
+  height: auto;
+  width: auto;
+  color: red;
+}
+
+body {
+  width: auto;
+  height: auto;
+  margin: 0;
+  background-color: #443a2b;
+  position: fixed;
+}
+
+
+
+.container {
+  width: 1050px;
+  height: 1050px;
+  padding: 5px 50px 50px 440px;
+}
+
+.pastel {
+  /* background-image: url(victor.jpg); */
+  background-size: 0px;
+  background-repeat: no-repeat;
+  width: 505px;
+  height: 940px;
+  background-color: #ffdead;
+  float: left;
+  background-position: left;
+  padding: 10px;
+}
+
+.imagem {
+  align-items: center;
+  padding: 170px 0px;
+}
+
+.preto {
+  width: 505px;
+  height: 940px;
+  background-color: black;
+  float: right;
+  background-position: right;
+  padding: 10px;
+}
+
+.texto {
+  color: chocolate;
+  padding: 200px 5px;
+  background-position: center;
+  display: inline-block;
+  font-family: Courier, monospace;
+}
+
+.texto2 {
+  color: coral;
+  font-family: Georgia, serif;
+}
+
+.links {
+  color: blueviolet;
+  padding: 20px;
+  background-position: center;
+  display: inline-block;
+}
+
+.links:hover {
+  transform: scale(1.1);
+}
+
+#gif {
+  padding: 50px 130px;
+}
