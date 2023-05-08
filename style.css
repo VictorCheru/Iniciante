@@ -8,46 +8,37 @@ body {
   width: auto;
   height: auto;
   margin: 0;
-  background-color: #443a2b;
-  position: fixed;
+  background-color: #442b43;
 }
 
-
-
 .container {
-  width: 1050px;
-  height: 1050px;
-  padding: 5px 50px 50px 440px;
+  width: auto;
+  height: auto;
+  display: flex; 
+  justify-content: center;
 }
 
 .pastel {
   /* background-image: url(victor.jpg); */
-  background-size: 0px;
   background-repeat: no-repeat;
-  width: 505px;
-  height: 940px;
+  width: 500px;
+  height: 1000px;
   background-color: #ffdead;
-  float: left;
-  background-position: left;
-  padding: 10px;
 }
 
 .imagem {
   align-items: center;
-  padding: 170px 0px;
+  padding: 165px 0px;
 }
 
 .preto {
-  width: 505px;
-  height: 940px;
+  width: 500px;
+  height: 1000px;
   background-color: black;
-  float: right;
-  background-position: right;
-  padding: 10px;
 }
 
 .texto {
-  color: chocolate;
+  color: rgb(245, 214, 192);
   padding: 200px 5px;
   background-position: center;
   display: inline-block;
@@ -55,7 +46,7 @@ body {
 }
 
 .texto2 {
-  color: coral;
+  color: rgb(221, 149, 123);
   font-family: Georgia, serif;
 }
 
@@ -67,7 +58,7 @@ body {
 }
 
 .links:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 #gif {
