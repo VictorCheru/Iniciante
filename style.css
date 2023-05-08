@@ -37,6 +37,11 @@ body {
   background-color: black;
 }
 
+/* h1:hover{
+text-shadow: rgb(255, 255, 255) -3px 0,rgb(255, 255, 255) 3px 0 ;
+
+} */
+
 .texto {
   color: rgb(245, 214, 192);
   padding: 200px 5px;
@@ -59,8 +64,10 @@ body {
 
 .links:hover {
   transform: scale(1.2);
+  transition-duration: 300ms;
+  
 }
-
 #gif {
   padding: 50px 130px;
 }
+
