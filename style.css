@@ -64,7 +64,7 @@ text-shadow: rgb(255, 255, 255) -3px 0,rgb(255, 255, 255) 3px 0 ;
 
 .links:hover {
   transform: scale(1.2);
-  transition-duration: 300ms;
+  transition-duration: 500ms;
   
 }
 #gif {
