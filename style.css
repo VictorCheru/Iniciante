@@ -10,7 +10,6 @@ body {
 
 .container {
   display: flex; 
-  align-items: center left;
   justify-content: center;
 }
 
@@ -25,6 +24,11 @@ body {
 .imagem {
   align-items: center;
   padding: 165px 0px;
+}
+
+.victor{
+  width: 100%;
+  height: 100%;
 }
 
 .preto {
@@ -63,16 +67,93 @@ text-shadow: rgb(255, 255, 255) -3px 0,rgb(255, 255, 255) 3px 0 ;
   transition-duration: 350ms;
   
 }
+
+.patinho{
+  width: 200px;
+}
+
 #gif {
+  
   padding: 50px 130px;
 }
 
 
- @media (max-width: 1024px){
+ @media screen and (max-width: 1366px){
   .container {
-    height: auto;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
  }
+ 
 
+ @media (max-width: 414px){
+  .container {
+  height: 100%;
+  }
+  .pastel{
+    width: 100%;
+    height: 730px;
+    
+  }
+  .preto{
+    width: 100%;
+    height: auto;
+  }
+
+.texto, .texto2, .links{
+  width: 80%;
+  padding-top: 10%;
+}
+.patinho{
+  width: 120px;
+  height: 120px;
+  padding-left: 30%;
+
+}
+#gif{
+  padding:20px;
+}
+.links {
+  width: 15px;
+  height: 15px;
+  background-position: center;
+  padding: 0px 50px 50px 0px;
+}
+
+}
+
+@media (max-width: 375px){
+  .container {
+  height: 100%;
+  }
+  .pastel{
+    width: 100%;
+    height: 700px;
+    
+  }
+  .preto{
+    width: 100%;
+    height: auto;
+  }
+
+.texto, .texto2, .links{
+  width: 80%;
+  padding-top: 10%;
+}
+.patinho{
+  width: 120px;
+  height: 120px;
+  padding-left: 30%;
+
+}
+#gif{
+  padding:20px;
+}
+.links {
+  width: 15px;
+  height: 15px;
+  background-position: center;
+  padding: 0px 50px 50px 0px;
+}
+
+}
