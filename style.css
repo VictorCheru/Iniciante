@@ -1,6 +1,10 @@
-
+html{
+  margin: 0;
+  padding: 0;
+}
 
 body {
+  margin: 0;
   background-color: #442b43;
 }
 
@@ -35,7 +39,7 @@ text-shadow: rgb(255, 255, 255) -3px 0,rgb(255, 255, 255) 3px 0 ;
 
 .texto {
   color: rgb(245, 214, 192);
-  padding: 200px 30px;
+  padding: 200px 0px 0px 30px;
   background-position: center;
   display: inline-block;
   font-family: Courier, monospace;
